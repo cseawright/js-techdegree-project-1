@@ -3,9 +3,6 @@ Treehouse FSJS Techdegree:
 project 1 - A Random Quote Generator
 ******************************************/
 
-// Study guide for this project - https://drive.google.com/file/d/1s5grutGuQFwJcQP8bFwEI69Q8FCkGdDk/view?usp=sharing
-
-
 //Creates the 'quotes' array of objects which includes a quote, source, and citation, and year //(when applicable)
 //below the array there is a 'for' loop to print the contents of the array at each index
 
@@ -15,7 +12,7 @@ var quotes = [
     source: ' Ray Bradbury',
     citation: 'Farenheit 451',
     year: '1953',
-    tags: '#novels' + ' #' 
+    tags: '#novels' + ' #goodreads' + ' #classicbooks' + ' #' 
   },
   {
     quote: 'Change your life until you are who you know you are.',
@@ -78,6 +75,7 @@ function printQuote(textHTML){
 
 // 'setInterval' method below to switch between random quotes every 5 seconds by calling on the
 // 'printQuote' function
+
 setInterval(printQuote, 5000);
 
 /***
